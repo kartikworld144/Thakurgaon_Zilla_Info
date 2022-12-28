@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ঠাকুরগাঁও জেলার সকল তথ্য</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="name">Name</string>
+    <string name="sms">পাঠান</string>
+    <string name="copy">কপি</string>
+    <string name="district">ঠাকুরগাঁও জেলার তথ্য</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="id">Id</string>
+    <string name="todo">TODO</string>
+    <string name="copy_send">↪️ COPY ↔️ SEND ↩️</string>
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:padding="5dp"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_item"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:layout_marginEnd="4dp"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/ContactName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/todo"
+                android:paddingRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="1dp"
+                android:paddingTop="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_label"
+                android:textColor="@color/white"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/ContactTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="15sp"
+                android:paddingBottom="1dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/message"
+                android:ellipsize="end"
+                />
+
+            <TextView
+                android:id="@+id/ContactDes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textSize="11sp"
+                android:background="@drawable/bg_label"
+                android:ellipsize="end"
+                android:layout_gravity="start"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:text="@string/app_name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end|center"
+            android:layout_marginEnd="4dp"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintWidth_percent="0.7"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/phone_call_animation" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

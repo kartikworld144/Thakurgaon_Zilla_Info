@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Defining a container for you List Item-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent">
+
+    <!-- Defining where should text be placed.
+        You set you text color here -->
+
+
+    <TextView
+        android:id="@+id/list_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:gravity="start"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:fontFamily="@font/bornobilas"
+        android:textSize="15sp"
+        android:layout_margin="4dp"
+        />
+    <TextView
+        android:id="@+id/list_content2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_label"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:text="@string/copy_send"
+        android:textStyle="bold"
+        android:layout_margin="4dp"
+        />
+
+</LinearLayout>
